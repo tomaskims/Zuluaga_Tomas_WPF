@@ -35,7 +35,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="71" selection-start="906" selection-end="906" vertical-scroll-proportion="0.8060345" vertical-offset="39" max-vertical-offset="735">
+            <state line="90" column="0" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.95689654" vertical-offset="684" max-vertical-offset="1485">
               <folding />
             </state>
           </provider>
@@ -88,7 +88,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -109,6 +108,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,14 +118,6 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -134,15 +128,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -207,6 +209,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="29" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="24" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="375">
           <folding />
         </state>
@@ -235,7 +251,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="71" selection-start="906" selection-end="906" vertical-scroll-proportion="0.8060345" vertical-offset="39" max-vertical-offset="735">
+        <state line="90" column="0" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.95689654" vertical-offset="684" max-vertical-offset="1485">
           <folding />
         </state>
       </provider>

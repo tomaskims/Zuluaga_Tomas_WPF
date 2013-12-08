@@ -40,4 +40,54 @@ var muppets = ["kermit","yo mama","paco"]; //array values in this order kermit=0
 console.log(muppets[2]);// gave the variable muppets a value of 0 = which is kermit in the array value before,
                         //showing console.log kermit insteat of muppets
 
+// Using data calculations and basic string manipulation
+
+var firstNumber = 15;
+
+var secondNumber= 10;
+
+
+var answer
+answer = 15 / 10;
+alert(answer);
+
+alert(15 / 10);
+
+answer = firstNumber / secondNumber;
+
+alert(answer);
+
+//increment and decrement operators
+
+    //Fahrenheit to Centigrade conversion and the equation is C = 5/9 ( F - 32 )
+
+var degFahren = prompt("Enter the degrees in Fahrenheit",50);
+var degCent;
+
+degCent = 5/9 * (degFahren - 32);
+
+alert(degCent);
+
+//concatenating strings
+
+var greetingString = "hello";
+var myName = prompt ("Please enter your name", "")
+var concatString;
+
+document.write(greetingString + " " + myName + "<br>");
+
+concatString = greetingString + " " + myName;
+
+document.write(concatString);
+
+//making temperature converter user-friendly
+
+var degFahrenh = prompt("Enter the degrees in fahrenheit", 50);
+var degcentig;
+
+degcentig = 5/9 * (degfahrenh - 32);
+
+alert(degFahrenh + "\xB0 Fahrenheit is " + degcentig + "\xB0 centigrade" );
+
+
 
