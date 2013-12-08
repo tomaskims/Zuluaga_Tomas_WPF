@@ -17,12 +17,13 @@ console.log( "This is the remaining balance " + "= " + remBal);
 
 // If I wanted to save money and found a cheaper lunch special
 
-var chepLunch = workDaysyear * (dailyLunch - 5);
+var chepLunch = workDaysyear * (dailyLunch - 5);//c
 console.log( "cheaper lunch " + "= " + chepLunch);
 
 // I included a total of daily lunch money (x) and multiplied it by the total days of work per year (y)
 // so that  x * y = z where z = yearly salary
-//
+//I decided to add more to it and made a equation where if you find a cheaper lunch how much money you would save per year
+// c = {workDaysyear * ( dailyLunch - 5 )}
 
 
 
