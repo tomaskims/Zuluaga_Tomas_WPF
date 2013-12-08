@@ -9,4 +9,4 @@ var dayWeek = 7;
 var hourWord;
 
 hourWord = (exHours) * (dayWeek);
-
+console.log("This is the ammount of hours I work out a week " + "= " + hourWord);
