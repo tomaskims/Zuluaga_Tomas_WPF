@@ -14,3 +14,6 @@ console.log("This is the ammount of hours I work out a week " + "= " + hourWord)
 var totalWhours = (dayWeek) * 24;
 console.log("Thias is the ammount of hours there are in a week " + "= " +totalWhours);
 
+var hoursLeft;
+
+hoursLeft = 
