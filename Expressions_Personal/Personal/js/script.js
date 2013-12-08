@@ -10,7 +10,7 @@ var moneySpent = (dailyLunch) * (workDaysyear);
 console.log("This is the total spent a year on lunch " + "= " + moneySpent);
 
 //In this part I want to show what would be my remaining balance per year after subtracting the money spent on lunch
-var yearSal = 12000;
+var yearSal = 12000;//z
 var remBal = (yearSal) - (moneySpent);
 
 console.log( "This is the remaining balance " + "= " + remBal);
@@ -21,7 +21,8 @@ var chepLunch = workDaysyear * (dailyLunch - 5);
 console.log( "cheaper lunch " + "= " + chepLunch);
 
 // I included a total of daily lunch money (x) and multiplied it by the total days of work per year (y)
-
+// so that  x * y = z where z = yearly salary
+//
 
 
 
