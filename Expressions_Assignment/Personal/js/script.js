@@ -11,13 +11,14 @@ var hourWord;//z
 //x * y = z
 
 hourWord = (exHours) * (dayWeek);
-console.log("This is the ammount of hours I work out a week " + "= " + hourWord);
+console.log("This is the amount of hours I work out a week " + "= " + hourWord);
 
+//Here I wanted to add the amount of hours I would have left a week after working out every day for 4 hours
 var totalWhours = (dayWeek) * 24;
-console.log("Thias is the ammount of hours there are in a week " + "= " +totalWhours);
+console.log("This is the amount of hours there are in a week " + "= " +totalWhours);
 
 var hoursLeft;
 
 hoursLeft = (totalWhours) - (hourWord);
-console.log("This is the ammount of hours I would have left a week" + "= " +hoursLeft);
+console.log("This is the amount of hours I would have left a week" + "= " +hoursLeft);
 
