@@ -8,3 +8,7 @@ var daysWeek = 7;
 
 var meTimesweek = meDogwk * daysWeek;
 console.log(meTimesweek);
+
+var momTimesweek = momDogwk * daysWeek;
+console.log(momTimesweek);
+
