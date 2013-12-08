@@ -17,4 +17,4 @@ console.log("Thias is the ammount of hours there are in a week " + "= " +totalWh
 var hoursLeft;
 
 hoursLeft = (totalWhours) - (hourWord);
-console.log(hoursLeft);
+console.log("This is the ammount of hours I would have left a week" + "= " +hoursLeft);
