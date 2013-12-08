@@ -12,3 +12,8 @@ console.log(meTimesweek);
 var momTimesweek = momDogwk * daysWeek;
 console.log(momTimesweek);
 
+// If I decide not to take out one time one day
+
+var meDogwk1;
+meDogwk1= meTimesweek - 1;
+console.log(meDogwk1);
