@@ -6,6 +6,6 @@
 
 var exHours = 4;
 var dayWeek = 7;
-var hourSpent;
+var hourSpent = (exHours) * (dayWeek);
 
 
