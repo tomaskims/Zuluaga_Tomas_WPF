@@ -22,6 +22,9 @@ if(gasTank == gasCap || gasTank >= gasEff && nextGast == gasTank){
     console.log("You only have 2 gallons of gas in your tank, better get gas now while you can!")
 }
 
+//
+
+
 
 
 
@@ -37,7 +40,7 @@ if(gasTank == gasCap || gasTank >= gasEff && nextGast == gasTank){
 //Correct username
 //Correct password
 
-var userName = "12345";
+    var userName = "12345";
 var passWord = "54321";
 var userNamein = "12345";
 var passWordin = "54321";
@@ -45,18 +48,9 @@ var passWordin = "54321";
 if(userNamein === userName && passWordin === passWord){
     console.log("Welcome back 12345")
 }else{
-    console.log("The username or password you entered does not match our records")
+    console.log("The user name you entered does not match our records")
+
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
