@@ -10,7 +10,7 @@ var newEmployee = prompt("Please enter how many years of experience you have");
 var fulltimeRequiremnt = 2;//years required
 var parTimePlacement = 2 - 1;
 
-if(newEmployee <= fulltimeRequiremnt){
+if(newEmployee >= fulltimeRequiremnt){
     console.log("Congratulations, you are qualified to work at Naples floor coverings")
 }else if(parTimePlacement > fulltimeRequiremnt){
     console.log("You qualify for part time employment and if hired you will be trained for 6 months")
