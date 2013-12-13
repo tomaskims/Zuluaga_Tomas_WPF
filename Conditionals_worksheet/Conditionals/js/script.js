@@ -23,7 +23,51 @@ if(gasTank == gasCap || gasTank >= gasEff && nextGast == gasTank){
 }
 
 
-//Group two
+
+
+//Group Two
+
+
+//Make sure the user has the correct username and password.
+// If the username doesn’t match then a specific message for that should be printed to the console.
+// If the password doesn’t match a message should appear for that, etc. Only one error message should appear.
+//Given:
+    //Username entered by user
+//Password entered by user
+//Correct username
+//Correct password
+
+var userName = "12345";
+var passWord = "54321";
+var userNamein = "12345";
+var passWordin = "54321";
+
+if(userNamein === userName && passWordin === passWord){
+    console.log("Welcome back 12345")
+}else{
+    console.log("The username or password you entered does not match our records")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Group three
 //The local movie theater in town has a ticket price of $12.00 but if you are a senior (55 and older), under 10 you get the discounted price of $7.00. In addition, if a customer is seeing a movie between 3pm and 5pm they can also get the discounted price.
 //Determine which of the two prices the customer is eligible for.
 //Given:
