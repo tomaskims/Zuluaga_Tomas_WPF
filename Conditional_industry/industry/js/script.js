@@ -14,4 +14,6 @@ if(newEmployee >= fulltimeRequiremnt){
     console.log("Congratulations, you are qualified to work at Naples floor coverings")
 }else if(parTimePlacement > fulltimeRequiremnt){
     console.log("You qualify for part time employment and if hired you will be trained for 6 months")
+}else{
+    console.log("Sorry you don't qualify for any type of employment ")
 }
