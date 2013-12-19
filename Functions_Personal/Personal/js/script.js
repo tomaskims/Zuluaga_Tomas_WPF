@@ -12,14 +12,18 @@ var gamesLocalLeague = prompt("Please enter how many games you play in your loca
 var durationOfGame = prompt("Please enter how long the soccer games are ");
 function amountCalBurnt(gamesll, minutes){
     var calories = 600;
-    var calPerMonth = gamesll * calories;
-    var calPerMinute = calPerMonth / minutes;
+    var calPerMonth = gamesll * calories
+
+
+
     return calPerMonth;
-    return calPerMinute;
+
+
 
 }
 
-amountCalBurnt();
+amountCalBurnt(gamesLocalLeague, durationOfGame);
+
 
 console.log("you burn " + amountCalBurnt(gamesLocalLeague)+ ' calories per month if you play all of the games');
 console.log("and you burn calories " + amountCalBurnt(gamesLocalLeague, durationOfGame)/ amountCalBurnt(durationOfGame) + " per minute a month");
