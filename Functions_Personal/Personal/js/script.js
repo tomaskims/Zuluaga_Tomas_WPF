@@ -10,7 +10,7 @@
 
 var gamesLocalLeague = prompt("Please enter how many games you play in your local league ");
 var durationOfGame = prompt("Please enter how long the soccer games are ");
-function amountCalBurnt(gamesll, minutes){
+function amountCalBurnt(gamesll){
     var calories = 600;
     var calPerMonth = gamesll * calories
 
