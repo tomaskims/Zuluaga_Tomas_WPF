@@ -1,7 +1,7 @@
 /**
  * Created by tomaszuluaga on 12/19/13.
  */
-
+//assignment functions
 
 //If you burn 600 calories in a 90 minute soccer game
 
@@ -22,8 +22,8 @@ function amountCalBurnt(gamesll, minutes){
 
 }
 
-amountCalBurnt(gamesLocalLeague, durationOfGame);
+amountCalBurnt();
 
 
 console.log("you burn " + amountCalBurnt(gamesLocalLeague)+ ' calories per month if you play all of the games');
-console.log("and you burn calories " + amountCalBurnt(gamesLocalLeague, durationOfGame)/ amountCalBurnt(durationOfGame) + " per minute a month");
+console.log("and you burn calories " + amountCalBurnt(gamesLocalLeague)/ durationOfGame + " per minute a month");
