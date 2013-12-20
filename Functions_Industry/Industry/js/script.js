@@ -4,18 +4,19 @@
 //
 
 var priceOfticket = function(x, y, age){
-    var x = 10
-    var y = 20;
-    var z = age;
-    if(z < 18 || z <=18){
-        console.log("you pay" + y + "for two tickets");
+    var onePerson = 19;
+    var twoPeople = 19;
+    var price = (10, 20, 16);
+    var discount = (onePerson && twoPeople );
+    if(onePerson< 18 || twoPeople <=18){
+        console.log("you pay" + price[0] + "for two tickets");
 
 
-    }else if(z > 18){
-        console.log("you pay" + x +  "regular price");
+    }else if(twoPeople > 18){
+        console.log("you pay " + price[1] +  " regular price");
 
     }else{
-        console.log("whatevee");
+        console.log("whatevee"+ price[2]);
     }
 }
 
